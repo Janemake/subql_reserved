@@ -1,0 +1,6 @@
+type Reserved @entity {
+  id: ID!
+  reservefrom: String!
+  reserveAmount: BigInt
+  timestamp: Date!
+}
